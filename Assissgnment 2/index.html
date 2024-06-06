@@ -130,16 +130,33 @@
       <div class="further-info">
         <!-- insert images with srcsets and sizes -->
         <a href="https://www.mozilla.org/en-US/firefox/new/">
-          <img>
+          <img 
+          srcset="images/firefoxlogo120.png 120w, 
+                  images/firefoxlogo400.png 400w" 
+          sizes="(max-width:500px) 120px, 400px"
+          src="images/firefoxaddons400.jpg"
+          alt="firefox new?">
         </a>
         <a href="https://www.mozilla.org/">
-          <img>
+          <img
+            srcset="images/mozilladinosaur120.png 120w,
+            images/mozilladinosaur400.png 400w" 
+            sizes="(max-width:500px) 120px, 400px"
+            src="images/mozilladinosaur400.png"
+            alt="mozilla">
+
         </a>
         <a href="https://addons.mozilla.org/">
-          <img>
+          <img
+          srcset="images/firefoxaddons120.jpg 120w, 
+                   images/firefoxaddons400.jpg 400w" 
+            sizes="(max-width:500px) 120px, 400px"
+            src="images/firefoxaddons400.jpg"
+            alt="firefox addons">
         </a>
         <a href="https://developer.mozilla.org/en-US/">
-          <img>
+          <img
+          src="originals/mdn.svg" alt="MDN">
         </a>
         <div class="clearfix"></div>
       </div>
