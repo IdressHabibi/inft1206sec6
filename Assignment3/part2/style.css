@@ -1,5 +1,5 @@
 /*
-Name: Idress Habibi
+      Name: Idress Habibi
 	     File: index.html
 	     Date:2024-06-20
        assignment 3 : part 2
@@ -10,3 +10,8 @@ html {
 }
 
 /* Your CSS below here */
+
+div {
+  width: 200px;
+  height: 150px;
+}
