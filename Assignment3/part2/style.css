@@ -17,4 +17,10 @@ div {
   line-height: 150px;
   margin: auto;
   text-align: center;
+  font-size: 1.1rem; /*I set it to 1.1rem then went to the index.html in browser and developer tools and then checked the font size which turned out to be 17.6px */
+  background-color: red;
+  color: white;
+  text-shadow: 1px 1px 1px black;
+  border-radius: 5%;
+  border: 1px solid darkred;
 }
