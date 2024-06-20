@@ -94,3 +94,31 @@ p, li {
 section h2+p{
   text-indent: 20px;
 }
+
+a:link{
+  color: #a66;
+}
+a:visited{
+  color: #b66;
+}
+a:focus, a:hover{
+  text-decoration: none;
+}
+a {
+  outline: none;
+}
+a:active {
+  text-shadow: 0.5px 0px 0.5px rgba(0, 0, 0, 0.181);
+  color: tan;
+}
+
+a[href*="http"]::after{
+  content: "";
+  display: inline-block;
+  width: 10px;
+  height: 10px;
+  background-image: url('external-link-52.png');
+  background-repeat: no-repeat;
+  background-size: contain;
+  margin-left: 3px;
+}
