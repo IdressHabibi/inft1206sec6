@@ -122,3 +122,33 @@ a[href*="http"]::after{
   background-size: contain;
   margin-left: 3px;
 }
+
+ul, ol {
+  margin-top: 1.6rem;
+  margin-bottom: 1.6rem;
+}
+ul{
+  list-style-type: square;
+}
+ol{
+  list-style-type: lower-alpha;
+}
+
+nav li a {
+  text-decoration: none;
+  display: inline-block;
+  width: 100%;
+  line-height: 3;
+  text-align: center;
+  font-size: 2rem;
+  border: 1px solid #a66;
+}
+
+nav li a:focus, nav li a:hover{
+  border-width: 2px;
+}
+
+nav li{
+  list-style-type: none;
+  margin: 2rem 0;
+}
