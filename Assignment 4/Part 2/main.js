@@ -1,3 +1,9 @@
+/*
+NAME: Idress habibi
+FILENAME: main.js
+LAST UPDATE DATE: 2024_07-31
+DESCRIPTION: Web development-Assignment 4-Part 2
+*/
 const displayedImage = document.querySelector('.displayed-img');
 const thumbBar = document.querySelector('.thumb-bar');
 
