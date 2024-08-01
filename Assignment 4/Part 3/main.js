@@ -1,3 +1,9 @@
+/*
+NAME: Idress habibi
+FILENAME: main.js
+LAST UPDATE DATE: 2024_07-31
+DESCRIPTION: Web development-Assignment 4-Part 3
+*/
 // setup canvas
 
 const canvas = document.querySelector("canvas");
