@@ -19,8 +19,8 @@ const alttext = ['closeup of eye','fossil/stone','orchids','painting egyptian','
 /* Looping through images */
 for (const image of images) {
 const newImage = document.createElement('img');
-newImage.setAttribute('src', xxx);
-newImage.setAttribute('alt', xxx);
+newImage.setAttribute('src', `images/${image}`);
+newImage.setAttribute('alt', alttext[image]);
 thumbBar.appendChild(newImage);
 newImage.addEventListener('click', imageclick => {
     displayedImage.src = imageclick.target.src;
@@ -29,3 +29,15 @@ newImage.addEventListener('click', imageclick => {
 }
 
 /* Wiring up the Darken/Lighten button */
+btn.addEventListener('click', () => {
+    const btnClass = btn.getAttribute('class');
+    if (btnClass === 'dark') {
+      btn.setAttribute('class','light');
+      btn.textContent = 'Lighten';
+      overlay.style.backgroundColor = 'rgba(0,0,0,0.5)';
+    } else {
+      btn.setAttribute('class','dark');
+      btn.textContent = 'Darken';
+      overlay.style.backgroundColor = 'rgba(0,0,0,0)';
+    }
+  });
