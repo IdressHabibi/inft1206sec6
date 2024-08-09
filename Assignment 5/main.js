@@ -1,3 +1,8 @@
+/*NAME: Idress Habibi
+FILENAME: main.js
+DATE: 2024-08-09
+DESCRIPTION:Assessment: Accessibility troubleshooting
+*/
 // functionality for showing/hiding the comments section
 
 const showHideBtn = document.querySelector('.show-hide');
